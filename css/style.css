@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container{
+  width: 1500px;
+  margin: 0 auto;
+  
+  margin-top: 50px;
+  min-height: 300px;
+  position: relative;
+}
+
+.card{
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-red{
+  background-color: red;
+  left: 0px;
+  width: 45px;
+  display: block;
+  position: absolute;
+  bottom: 16px;
+  padding: 5px;
+  color: white;
+}
+
+.overlay-green{
+  background-color: green;
+  left: 50px;
+  width: 90px;
+  display: block;
+  position: absolute;
+  bottom: 16px;
+  padding: 5px;
+  color: white;
+ 
+}
+
+.card-1{
+  width: 490px;
+}
+
+.descrizione{
+  padding-top: 5px;
+}
+
+  
+  
+  
+
+
+  
