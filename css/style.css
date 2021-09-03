@@ -4,54 +4,89 @@
   box-sizing: border-box;
 }
 
-.card-container{
-  width: 1500px;
+.card-conteiner{
+  width: 85%;
   margin: 0 auto;
-  
-  margin-top: 50px;
+  padding-top: 25px;
+  position: relative;
   min-height: 300px;
+}
+
+.img-description{
+  display: inline-block;
   position: relative;
 }
 
-.card{
+.img-number{
   position: relative;
   display: inline-block;
 }
 
-.overlay-red{
-  background-color: red;
-  left: 0px;
-  width: 45px;
+.card-img{
+  width: 536px;
+  left: 0;
+  top: 0;
+}
+
+.wallpaper-img.card-img{
+  position: absolute;
+  display: none;
+}
+
+.img-number:hover .card-img.wallpaper-img{
+  display: block;
+}
+
+.cuore{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: rgba(255,255,255,255);
+  padding: 15px;
+  border-bottom-left-radius: 6px;
+  color: white;
+}
+
+.overlay-red, .overlay-green{
   display: block;
   position: absolute;
   bottom: 16px;
   padding: 5px;
   color: white;
+  font-weight: bold;
+}
+
+.overlay-red{
+  background-color: rgba(235,0,55,255);
+  width: 45px;
+  left: 0px;
 }
 
 .overlay-green{
-  background-color: green;
-  left: 50px;
+  background-color: rgba(0,135,90,255);
   width: 90px;
+  left: 50px;
+}
+
+.through{
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.red-number{
+  color: red;
+  font-weight: bold;
+}
+
+.overlay{
   display: block;
   position: absolute;
   bottom: 16px;
   padding: 5px;
   color: white;
- 
+  font-weight: bold;
+  background-color: rgba(0,135,90,255);
 }
-
-.card-1{
-  width: 490px;
-}
-
-.descrizione{
-  padding-top: 5px;
-}
-
-  
-  
   
 
 
-  
