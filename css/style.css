@@ -8,18 +8,15 @@
   width: 85%;
   margin: 0 auto;
   padding-top: 25px;
-  position: relative;
   min-height: 300px;
 }
 
 .img-description{
   display: inline-block;
-  position: relative;
 }
 
 .img-number{
   position: relative;
-  display: inline-block;
 }
 
 .card-img{
@@ -45,6 +42,7 @@
   padding: 15px;
   border-bottom-left-radius: 6px;
   color: white;
+  z-index: 1;
 }
 
 .overlay-red, .overlay-green{
@@ -54,6 +52,7 @@
   padding: 5px;
   color: white;
   font-weight: bold;
+  z-index: 1;
 }
 
 .overlay-red{
@@ -86,6 +85,7 @@
   color: white;
   font-weight: bold;
   background-color: rgba(0,135,90,255);
+  z-index: 1;
 }
   
 
